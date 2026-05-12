@@ -1,6 +1,6 @@
 # gfroessilva.github.io
 
-This site is now powered by [Quarto](https://quarto.org/).
+This [site](https://gfroessilva.github.io) is now powered by [Quarto](https://quarto.org/).
 
 ## Local development
 
