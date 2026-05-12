@@ -1,0 +1,265 @@
+/*-- scss:defaults --*/
+
+$primary: #1f5aa6;
+$secondary: #5b6770;
+$success: #2f7d32;
+$light: #f7f9fc;
+$dark: #0f172a;
+$body-bg: #f5f7fb;
+$body-color: #1f2937;
+$navbar-bg: rgba(255, 255, 255, 0.92);
+$navbar-fg: $dark;
+$footer-bg: #ffffff;
+$border-color: #dbe3ee;
+$border-radius: 1rem;
+$box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+
+/*-- scss:rules --*/
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(31, 90, 166, 0.08), transparent 30%),
+    radial-gradient(circle at top right, rgba(15, 23, 42, 0.08), transparent 24%),
+    $body-bg;
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.navbar-brand,
+.nav-link,
+.menu-text {
+  font-weight: 600;
+}
+
+main.content {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+#title-block-header {
+  display: none;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
+  gap: 2rem;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(31, 90, 166, 0.12), rgba(255, 255, 255, 0.96));
+  border: 1px solid rgba(31, 90, 166, 0.12);
+  border-radius: 1.5rem;
+  box-shadow: $box-shadow;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  line-height: 1.05;
+  margin-bottom: 0.75rem;
+}
+
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: $secondary;
+  margin-bottom: 1.25rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.hero-photo {
+  text-align: center;
+}
+
+.profile-photo {
+  width: min(100%, 320px);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 24px 60px rgba(31, 90, 166, 0.18);
+  border: 6px solid rgba(255, 255, 255, 0.9);
+}
+
+.section-block,
+.callout-card,
+.publication-card,
+.timeline-item,
+.info-panel,
+.contact-card,
+.teaching-card,
+.stat-card,
+.feature-card {
+  background: #ffffff;
+  border: 1px solid $border-color;
+  border-radius: 1.25rem;
+  box-shadow: $box-shadow;
+}
+
+.section-block,
+.callout-card,
+.info-panel {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title {
+  margin-bottom: 1.25rem;
+}
+
+.feature-grid,
+.teaching-grid,
+.stat-grid,
+.contact-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.feature-grid,
+.contact-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.teaching-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.stat-grid {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.feature-card,
+.teaching-card,
+.contact-card,
+.stat-card {
+  padding: 1.25rem;
+}
+
+.feature-image {
+  width: 100%;
+  border-radius: 0.9rem;
+  margin-bottom: 1rem;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: #eef3f9;
+}
+
+.kicker {
+  color: $primary;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-item {
+  padding: 1.4rem;
+}
+
+.timeline-item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-item-header h3,
+.timeline-item-header h4,
+.timeline-item-header p {
+  margin: 0;
+}
+
+.timeline-period {
+  color: $secondary;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.muted-list,
+.plain-list {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.muted-list li {
+  color: $secondary;
+}
+
+.plain-list li + li,
+.muted-list li + li {
+  margin-top: 0.35rem;
+}
+
+.publication-card {
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.publication-grid {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.publication-card img {
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+  background: #eef3f9;
+}
+
+.publication-meta {
+  color: $secondary;
+  margin-bottom: 0.75rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.contact-form .form-control {
+  border-radius: 0.9rem;
+  border: 1px solid #ccd7e3;
+  padding: 0.8rem 1rem;
+}
+
+.contact-form textarea.form-control {
+  min-height: 160px;
+}
+
+.ratio iframe {
+  border: 0;
+  border-radius: 1rem;
+}
+
+.page-description {
+  color: $secondary;
+  max-width: 48rem;
+}
+
+.pdf-link {
+  font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .hero-grid,
+  .publication-grid {
+    grid-template-columns: 1fr;
+  }
+}

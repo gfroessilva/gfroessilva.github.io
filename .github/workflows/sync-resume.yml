@@ -1,0 +1,110 @@
+name: Sync resume from Overleaf
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-resume:
+    runs-on: ubuntu-latest
+    env:
+      OVERLEAF_DIR: overleaf-resume
+      SITE_RESUME_PDF: Guilherme_s_CV.pdf
+      BRANCH_NAME: ${{ github.ref_name }}
+      OVERLEAF_MAIN_TEX: ${{ vars.OVERLEAF_MAIN_TEX }}
+
+    steps:
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y latexmk texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-bibtex-extra biber
+
+      - name: Clone Overleaf project
+        env:
+          OVERLEAF_GIT_URL: ${{ secrets.OVERLEAF_GIT_URL }}
+          OVERLEAF_GIT_USERNAME: ${{ secrets.OVERLEAF_GIT_USERNAME }}
+          OVERLEAF_GIT_TOKEN: ${{ secrets.OVERLEAF_GIT_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          ASKPASS_SCRIPT="$RUNNER_TEMP/overleaf-askpass.sh"
+          trap 'rm -f "$ASKPASS_SCRIPT"' EXIT
+
+          cat > "$ASKPASS_SCRIPT" <<'EOF'
+          #!/bin/sh
+          case "$1" in
+            *Username* ) printf '%s\n' "$OVERLEAF_GIT_USERNAME" ;;
+            *Password* ) printf '%s\n' "$OVERLEAF_GIT_TOKEN" ;;
+            * ) exit 1 ;;
+          esac
+          EOF
+
+          chmod 700 "$ASKPASS_SCRIPT"
+          GIT_TERMINAL_PROMPT=0 GIT_ASKPASS="$ASKPASS_SCRIPT" git clone "$OVERLEAF_GIT_URL" "$OVERLEAF_DIR"
+
+      - name: Resolve resume entrypoint
+        id: resume-meta
+        working-directory: ${{ env.OVERLEAF_DIR }}
+        run: |
+          set -euo pipefail
+
+          main_tex="${OVERLEAF_MAIN_TEX:-}"
+          if [ -n "$main_tex" ] && [ ! -f "$main_tex" ]; then
+            echo "Configured OVERLEAF_MAIN_TEX '$main_tex' was not found in the Overleaf project." >&2
+            exit 1
+          fi
+
+          if [ -z "$main_tex" ]; then
+            shopt -s nullglob
+            tex_files=( *.tex )
+            shopt -u nullglob
+
+            if [ "${#tex_files[@]}" -ne 1 ]; then
+              echo "Set repository variable OVERLEAF_MAIN_TEX because the main .tex file could not be inferred automatically." >&2
+              printf 'Found .tex files: %s\n' "${tex_files[*]:-(none)}" >&2
+              exit 1
+            fi
+
+            main_tex="${tex_files[0]}"
+          fi
+
+          pdf_name="${main_tex%.tex}.pdf"
+
+          {
+            echo "main_tex=$main_tex"
+            echo "pdf_name=$pdf_name"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build PDF
+        working-directory: ${{ env.OVERLEAF_DIR }}
+        run: |
+          latexmk -pdf -interaction=nonstopmode -halt-on-error "${{ steps.resume-meta.outputs.main_tex }}"
+
+      - name: Copy PDF into site
+        run: |
+          cp "${OVERLEAF_DIR}/${{ steps.resume-meta.outputs.pdf_name }}" "$SITE_RESUME_PDF"
+
+      - name: Commit updated PDF
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$SITE_RESUME_PDF"
+
+          if git diff --cached --quiet; then
+            echo "Resume PDF is already up to date."
+            exit 0
+          fi
+
+          git commit -m "Update resume PDF from Overleaf"
+          git push origin "HEAD:${BRANCH_NAME}"

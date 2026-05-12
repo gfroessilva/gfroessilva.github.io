@@ -1,0 +1,67 @@
+---
+title: "Publications"
+---
+
+::: {.page-description}
+Selected publications and recent work across vehicle platooning, inverter-based microgrids, and aerial image processing.
+:::
+
+::: {.publication-card}
+::: {.publication-grid}
+![](assets/img/inverterchains.jpg){fig-alt="Inverter chain illustration"}
+
+::: {}
+## String Stability in Microgrids Using Frequency Controlled Inverter Chains
+
+::: {.publication-meta}
+G. F. Silva, A. Donaire, M. M. Seron, A. McFadyen and J. Ford · 2022 · *IEEE Control Systems Letters*
+:::
+
+Proposed a controller design that guarantees string stability in chains of inverters.
+
+[DOI](https://doi.org/10.1109/LCSYS.2021.3114143)
+:::
+:::
+:::
+
+::: {.publication-card}
+::: {.publication-grid}
+![](assets/img/vehicleplatooning2.png){fig-alt="Vehicle platooning illustration"}
+
+::: {}
+## String Stable Integral Control of Vehicle Platoons with Disturbances
+
+::: {.publication-meta}
+G. F. Silva, A. Donaire, A. McFadyen and J. Ford · 2021 · *Automatica*
+:::
+
+Disturbance string stable control of vehicle platoons with disturbances.
+
+[DOI](https://doi.org/10.1016/j.automatica.2021.109542)
+
+### Conference version
+
+G. F. Silva, A. Donaire, A. McFadyen, and J. Ford, 2020, *59th IEEE Conference on Decision and Control (CDC)*.
+
+[DOI](https://doi.org/10.1109/CDC42340.2020.9303743)
+:::
+:::
+:::
+
+::: {.publication-card}
+::: {.publication-grid}
+![](assets/img/shadows.png){fig-alt="Shadow compensation example"}
+
+::: {}
+## Near Real-Time Shadow Detection and Removal in Aerial Motion Imagery Application
+
+::: {.publication-meta}
+G. F. Silva, G. B. Carneiro, R. Doth, L. A. Amaral and D. F. G. de Azevedo · 2018 · *ISPRS Journal of Photogrammetry and Remote Sensing*
+:::
+
+Presented a method to automatically detect and remove shadows in urban aerial images.
+
+[DOI](https://doi.org/10.1016/j.isprsjprs.2017.11.005)
+:::
+:::
+:::

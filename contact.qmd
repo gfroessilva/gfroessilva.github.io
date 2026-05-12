@@ -1,0 +1,55 @@
+---
+title: "Contact"
+---
+
+::: {.section-block}
+## Get in touch {.section-title}
+
+If you would like to discuss research, teaching, supervision, or collaboration opportunities, the best first contact is by email or the form below.
+:::
+
+::: {.contact-grid}
+::: {.contact-card}
+### Email
+
+[g.froessilva@qut.edu.au](mailto:g.froessilva@qut.edu.au)
+:::
+
+::: {.contact-card}
+### LinkedIn
+
+[linkedin.com/in/codefroes](https://www.linkedin.com/in/codefroes/)
+:::
+
+::: {.contact-card}
+### ORCID
+
+[orcid.org/0000-0003-4717-2742](https://orcid.org/0000-0003-4717-2742)
+:::
+:::
+
+::: {.section-block}
+## Contact form {.section-title}
+
+```{=html}
+<form class="contact-form" accept-charset="UTF-8" action="https://www.formbackend.com/f/17c0ac14ad752be2" method="POST" target="_blank">
+  <div class="mb-3">
+    <label for="contact-name">Your name</label>
+    <input class="form-control" id="contact-name" name="name" type="text" required>
+  </div>
+  <div class="mb-3">
+    <label for="contact-subject">Subject</label>
+    <input class="form-control" id="contact-subject" name="subject" type="text" required>
+  </div>
+  <div class="mb-3">
+    <label for="contact-email">Email</label>
+    <input class="form-control" id="contact-email" name="email" type="email" required>
+  </div>
+  <div class="mb-3">
+    <label for="contact-message">Message</label>
+    <textarea class="form-control" id="contact-message" name="message" required></textarea>
+  </div>
+  <button class="btn btn-primary btn-lg" type="submit">Send message</button>
+</form>
+```
+:::

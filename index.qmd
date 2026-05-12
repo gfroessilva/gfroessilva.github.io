@@ -1,0 +1,91 @@
+---
+title: "Home"
+page-layout: full
+---
+
+::: {.hero-grid}
+::: {.hero-copy}
+::: {.kicker}
+Control engineer · Researcher · Educator
+:::
+
+# Guilherme Fróes Silva {.hero-title}
+
+::: {.hero-subtitle}
+I work on nonlinear and networked control systems, with a focus on multi-agent systems, string stability, and modern control education.
+:::
+
+I am based at the Queensland University of Technology and enjoy building research that connects theory, implementation, and teaching practice.
+
+::: {.hero-actions}
+[Contact me](contact.html){.btn .btn-primary .btn-lg}
+[View résumé](cv.html){.btn .btn-outline-primary .btn-lg}
+:::
+:::
+
+::: {.hero-photo}
+![](assets/img/avatars/avatar.jpg){.profile-photo fig-alt="Portrait of Guilherme Fróes Silva"}
+:::
+:::
+
+::: {.section-block}
+## Research highlights {.section-title}
+
+::: {.feature-grid}
+::: {.feature-card}
+![](assets/img/vehicleplatooning2.png){.feature-image fig-alt="Vehicle platooning illustration"}
+
+### Vehicle platooning
+
+Disturbance string stable control design for vehicle platoons with actuator dynamics and external disturbances.
+:::
+
+::: {.feature-card}
+![](assets/img/inverterchains.jpg){.feature-image fig-alt="Inverter chain illustration"}
+
+### Inverter-based microgrids
+
+Controller design for chains of frequency-controlled inverters with guaranteed string-stability properties.
+:::
+
+::: {.feature-card}
+![](assets/img/shadows.png){.feature-image fig-alt="Shadow compensation example"}
+
+### Shadow compensation
+
+Automatic detection and removal of shadows in urban aerial imagery for near-real-time applications.
+:::
+:::
+:::
+
+::: {.section-block}
+## Featured talk {.section-title}
+
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/qK3jj-XhBnQ" title="Visualise your Thesis 2021 entry" allowfullscreen></iframe>
+</div>
+:::
+
+::: {.section-block}
+## Focus areas {.section-title}
+
+::: {.stat-grid}
+::: {.stat-card}
+### Control design
+
+Nonlinear control, multi-agent coordination, and string stability.
+:::
+
+::: {.stat-card}
+### Research
+
+Academic publications spanning control theory, applications, and engineering systems.
+:::
+
+::: {.stat-card}
+### Teaching
+
+Lecturing, tutoring, and curriculum development across modern control and autonomous systems.
+:::
+:::
+:::

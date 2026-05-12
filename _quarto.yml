@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: .
+  render:
+    - index.qmd
+    - teaching.qmd
+    - publications.qmd
+    - cv.qmd
+    - contact.qmd
+    - "!*.html"
+    - "!assets/"
+
+website:
+  title: "Guilherme Fróes Silva"
+  search: false
+  navbar:
+    title: "Guilherme Fróes Silva"
+    left:
+      - href: index.qmd
+        text: Home
+      - teaching.qmd
+      - publications.qmd
+      - href: cv.qmd
+        text: Résumé
+      - contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/gfroessilva
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/codefroes/
+        aria-label: LinkedIn
+      - icon: twitter
+        href: https://twitter.com/CodeFroes
+        aria-label: Twitter
+      - icon: orcid
+        href: https://orcid.org/0000-0003-4717-2742
+        aria-label: ORCID
+  page-footer:
+    left: "[About me](cv.html) · [Contact](contact.html) · [Publications](publications.html)"
+    right: "[GitHub](https://github.com/gfroessilva) · [LinkedIn](https://www.linkedin.com/in/codefroes/) · [ORCID](https://orcid.org/0000-0003-4717-2742)"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    title-block: false
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

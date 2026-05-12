@@ -1,0 +1,183 @@
+---
+title: "Résumé"
+---
+
+::: {.section-block}
+::: {.publication-grid}
+![](assets/img/avatars/avatar.jpg){fig-alt="Portrait of Guilherme Fróes Silva"}
+
+::: {}
+## Profile {.section-title}
+
+A lecturer and researcher in electrical engineering, with experience across nonlinear control, multi-agent systems, image processing, and engineering education.
+
+[Download PDF résumé](Guilherme_s_CV.pdf){.pdf-link}
+
+::: {.contact-grid}
+::: {.contact-card}
+### Email
+
+[g.froessilva@qut.edu.au](mailto:g.froessilva@qut.edu.au)
+:::
+::: {.contact-card}
+### Phone
+
++61 433 870 354
+:::
+::: {.contact-card}
+### ORCID
+
+[0000-0003-4717-2742](https://orcid.org/0000-0003-4717-2742)
+:::
+:::
+:::
+:::
+:::
+
+## Work experience {.section-title}
+
+::: {.timeline}
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### Sessional Academic (Tutor)
+
+Queensland University of Technology
+:::
+::: {.timeline-period}
+07/2019 – Ongoing
+:::
+:::
+
+I tutor and develop material for:
+
+- Control and Dynamic Systems
+- Modern Control
+- Autonomous Systems
+- Aircraft Systems and Flight
+:::
+
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### Lecturer
+
+PUCRS
+:::
+::: {.timeline-period}
+02/2018 – 12/2018
+:::
+:::
+
+For two semesters I lectured and coordinated six units at PUCRS, Brazil:
+
+- Control Systems Laboratory
+- Robot Programming
+- Rapid Prototyping
+- Industrial Automation
+- Discrete-event System Simulation
+- Integrated Manufacturing Systems
+:::
+
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### Research Assistant
+
+Labima · PUCRS
+:::
+::: {.timeline-period}
+08/2015 – 01/2018
+:::
+:::
+
+Research focused on automatic shadow removal from aerial images for the United States Air Force grant on the shadow problem. In January 2016, I visited The University of New Mexico and Transparent Sky.
+
+- Development of near-real time automatic shadow detection software using OpenCV and CUDA.
+- Teaching assistantship in undergraduate Signals and Systems.
+:::
+:::
+
+## Education {.section-title}
+
+::: {.timeline}
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### PhD in Electrical Engineering
+
+Queensland University of Technology, Australia
+:::
+::: {.timeline-period}
+02/2019 – Ongoing
+:::
+:::
+
+Current research involves disturbance string stable control design of multi-agent systems.
+:::
+
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### MS in Electrical Engineering
+
+PUCRS, Brazil
+:::
+::: {.timeline-period}
+08/2015 – 08/2017
+:::
+:::
+
+Research in image processing and photogrammetry, partially funded by CAPES and the AFOSR.
+
+Thesis: *Real-time Shadow Detection and Removal in Aerial Motion Imagery Application*
+
+**GPA:** 8.7/10
+:::
+
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### Academic Exchange
+
+University of Birmingham, UK
+:::
+::: {.timeline-period}
+09/2012 – 09/2013
+:::
+:::
+
+One-year sandwich program in Electrical Engineering, including coursework and a three-month placement at the Birmingham Centre for Railway Research and Education.
+:::
+
+::: {.timeline-item}
+::: {.timeline-item-header}
+::: {}
+### BEng Automation and Control
+
+PUCRS, Brazil
+:::
+::: {.timeline-period}
+03/2009 – 07/2015
+:::
+:::
+
+Five-year engineering degree focused on industrial automation and control theory. Final-year project: *Project and Control of a Rotary Dual-Stage Actuator*.
+
+**GPA:** 8.2/10
+:::
+:::
+
+## Skills {.section-title}
+
+::: {.contact-grid}
+::: {.contact-card}
+Control systems design
+:::
+::: {.contact-card}
+MATLAB
+:::
+::: {.contact-card}
+Teaching and curriculum development
+:::
+:::

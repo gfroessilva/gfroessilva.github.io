@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "If you would like to discuss research, teaching, supervision, or collaboration opportunities, the best first contact is by email or the form below."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "If you would like to discuss research, teaching, supervision, or collaboration opportunities, the best first contact is by email or the form below."
+  },
+  {
+    "objectID": "contact.html#contact-form",
+    "href": "contact.html#contact-form",
+    "title": "Contact",
+    "section": "Contact form",
+    "text": "Contact form\n\n  \n    Your name\n    \n  \n  \n    Subject\n    \n  \n  \n    Email\n    \n  \n  \n    Message\n    \n  \n  Send message"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Selected publications and recent work across vehicle platooning, inverter-based microgrids, and aerial image processing."
+  },
+  {
+    "objectID": "publications.html#string-stability-in-microgrids-using-frequency-controlled-inverter-chains",
+    "href": "publications.html#string-stability-in-microgrids-using-frequency-controlled-inverter-chains",
+    "title": "Publications",
+    "section": "String Stability in Microgrids Using Frequency Controlled Inverter Chains",
+    "text": "String Stability in Microgrids Using Frequency Controlled Inverter Chains\n\nG. F. Silva, A. Donaire, M. M. Seron, A. McFadyen and J. Ford · 2022 · IEEE Control Systems Letters\n\nProposed a controller design that guarantees string stability in chains of inverters.\nDOI"
+  },
+  {
+    "objectID": "publications.html#string-stable-integral-control-of-vehicle-platoons-with-disturbances",
+    "href": "publications.html#string-stable-integral-control-of-vehicle-platoons-with-disturbances",
+    "title": "Publications",
+    "section": "String Stable Integral Control of Vehicle Platoons with Disturbances",
+    "text": "String Stable Integral Control of Vehicle Platoons with Disturbances\n\nG. F. Silva, A. Donaire, A. McFadyen and J. Ford · 2021 · Automatica\n\nDisturbance string stable control of vehicle platoons with disturbances.\nDOI\n\nConference version\nG. F. Silva, A. Donaire, A. McFadyen, and J. Ford, 2020, 59th IEEE Conference on Decision and Control (CDC).\nDOI"
+  },
+  {
+    "objectID": "publications.html#near-real-time-shadow-detection-and-removal-in-aerial-motion-imagery-application",
+    "href": "publications.html#near-real-time-shadow-detection-and-removal-in-aerial-motion-imagery-application",
+    "title": "Publications",
+    "section": "Near Real-Time Shadow Detection and Removal in Aerial Motion Imagery Application",
+    "text": "Near Real-Time Shadow Detection and Removal in Aerial Motion Imagery Application\n\nG. F. Silva, G. B. Carneiro, R. Doth, L. A. Amaral and D. F. G. de Azevedo · 2018 · ISPRS Journal of Photogrammetry and Remote Sensing\n\nPresented a method to automatically detect and remove shadows in urban aerial images.\nDOI"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Control engineer · Researcher · Educator\n\n\n\n\nI work on nonlinear and networked control systems, with a focus on multi-agent systems, string stability, and modern control education.\n\nI am based at the Queensland University of Technology and enjoy building research that connects theory, implementation, and teaching practice.\n\nContact me View résumé"
+  },
+  {
+    "objectID": "index.html#research-highlights",
+    "href": "index.html#research-highlights",
+    "title": "Home",
+    "section": "Research highlights",
+    "text": "Research highlights\n\n\n\n\nVehicle platooning\nDisturbance string stable control design for vehicle platoons with actuator dynamics and external disturbances.\n\n\n\n\n\nInverter-based microgrids\nController design for chains of frequency-controlled inverters with guaranteed string-stability properties.\n\n\n\n\n\nShadow compensation\nAutomatic detection and removal of shadows in urban aerial imagery for near-real-time applications."
+  },
+  {
+    "objectID": "index.html#featured-talk",
+    "href": "index.html#featured-talk",
+    "title": "Home",
+    "section": "Featured talk",
+    "text": "Featured talk"
+  },
+  {
+    "objectID": "index.html#focus-areas",
+    "href": "index.html#focus-areas",
+    "title": "Home",
+    "section": "Focus areas",
+    "text": "Focus areas\n\n\nControl design\nNonlinear control, multi-agent coordination, and string stability.\n\n\nResearch\nAcademic publications spanning control theory, applications, and engineering systems.\n\n\nTeaching\nLecturing, tutoring, and curriculum development across modern control and autonomous systems."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I believe that students learn by making mistakes. A good teacher provokes students to apply their previous knowledge to new problems, so they can fail safely, reflect, and then learn from the experience.\n\n\n\nWhat the Best College Teachers Do — Ken Bain\nProf. David Carless on feedback"
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "",
+    "text": "I believe that students learn by making mistakes. A good teacher provokes students to apply their previous knowledge to new problems, so they can fail safely, reflect, and then learn from the experience.\n\n\n\nWhat the Best College Teachers Do — Ken Bain\nProf. David Carless on feedback"
+  },
+  {
+    "objectID": "teaching.html#units-taught",
+    "href": "teaching.html#units-taught",
+    "title": "Teaching",
+    "section": "Units taught",
+    "text": "Units taught\n\nQueensland University of Technology\n\n\nDynamic Systems and Control\n\n\nModern Control\n\n\nAutonomous Systems\n\n\nAircraft Systems and Flight"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Résumé",
+    "section": "",
+    "text": "A lecturer and researcher in electrical engineering, with experience across nonlinear control, multi-agent systems, image processing, and engineering education.\nDownload PDF résumé\n\n\n\ng.froessilva@qut.edu.au\n\n\n\n+61 433 870 354\n\n\n\n0000-0003-4717-2742"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "Résumé",
+    "section": "",
+    "text": "A lecturer and researcher in electrical engineering, with experience across nonlinear control, multi-agent systems, image processing, and engineering education.\nDownload PDF résumé\n\n\n\ng.froessilva@qut.edu.au\n\n\n\n+61 433 870 354\n\n\n\n0000-0003-4717-2742"
+  },
+  {
+    "objectID": "cv.html#work-experience",
+    "href": "cv.html#work-experience",
+    "title": "Résumé",
+    "section": "Work experience",
+    "text": "Work experience\n\n\n\n\nSessional Academic (Tutor)\nQueensland University of Technology\n\n\n07/2019 – Ongoing\n\n\nI tutor and develop material for:\n\nControl and Dynamic Systems\nModern Control\nAutonomous Systems\nAircraft Systems and Flight\n\n\n\n\n\nLecturer\nPUCRS\n\n\n02/2018 – 12/2018\n\n\nFor two semesters I lectured and coordinated six units at PUCRS, Brazil:\n\nControl Systems Laboratory\nRobot Programming\nRapid Prototyping\nIndustrial Automation\nDiscrete-event System Simulation\nIntegrated Manufacturing Systems\n\n\n\n\n\nResearch Assistant\nLabima · PUCRS\n\n\n08/2015 – 01/2018\n\n\nResearch focused on automatic shadow removal from aerial images for the United States Air Force grant on the shadow problem. In January 2016, I visited The University of New Mexico and Transparent Sky.\n\nDevelopment of near-real time automatic shadow detection software using OpenCV and CUDA.\nTeaching assistantship in undergraduate Signals and Systems."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Résumé",
+    "section": "Education",
+    "text": "Education\n\n\n\n\nPhD in Electrical Engineering\nQueensland University of Technology, Australia\n\n\n02/2019 – Ongoing\n\n\nCurrent research involves disturbance string stable control design of multi-agent systems.\n\n\n\n\nMS in Electrical Engineering\nPUCRS, Brazil\n\n\n08/2015 – 08/2017\n\n\nResearch in image processing and photogrammetry, partially funded by CAPES and the AFOSR.\nThesis: Real-time Shadow Detection and Removal in Aerial Motion Imagery Application\nGPA: 8.7/10\n\n\n\n\nAcademic Exchange\nUniversity of Birmingham, UK\n\n\n09/2012 – 09/2013\n\n\nOne-year sandwich program in Electrical Engineering, including coursework and a three-month placement at the Birmingham Centre for Railway Research and Education.\n\n\n\n\nBEng Automation and Control\nPUCRS, Brazil\n\n\n03/2009 – 07/2015\n\n\nFive-year engineering degree focused on industrial automation and control theory. Final-year project: Project and Control of a Rotary Dual-Stage Actuator.\nGPA: 8.2/10"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Résumé",
+    "section": "Skills",
+    "text": "Skills\n\n\nControl systems design\n\n\nMATLAB\n\n\nTeaching and curriculum development"
+  }
+]

@@ -1,0 +1,62 @@
+---
+title: "Teaching"
+---
+
+::: {.section-block}
+## Teaching philosophy {.section-title}
+
+I believe that students learn by making mistakes. A good teacher provokes students to apply their previous knowledge to new problems, so they can fail safely, reflect, and then learn from the experience.
+
+::: {.callout-card}
+### Resources that inform my practice
+
+- [*What the Best College Teachers Do* — Ken Bain](https://www.hup.harvard.edu/catalog.php?isbn=9780674013254)
+- [Prof. David Carless on feedback](https://www.youtube.com/watch?v=pOk6odcV_vI&t=561s)
+:::
+:::
+
+::: {.section-block}
+## Units taught {.section-title}
+
+### Queensland University of Technology
+
+::: {.teaching-grid}
+::: {.teaching-card}
+Dynamic Systems and Control
+:::
+::: {.teaching-card}
+Modern Control
+:::
+::: {.teaching-card}
+Autonomous Systems
+:::
+::: {.teaching-card}
+Aircraft Systems and Flight
+:::
+:::
+:::
+
+::: {.section-block}
+### PUCRS, Brazil
+
+::: {.teaching-grid}
+::: {.teaching-card}
+Industrial Automation
+:::
+::: {.teaching-card}
+Rapid Prototyping
+:::
+::: {.teaching-card}
+Control Systems Laboratory
+:::
+::: {.teaching-card}
+Robot Programming
+:::
+::: {.teaching-card}
+Discrete-Event System Simulation
+:::
+::: {.teaching-card}
+Integrated Manufacturing Systems
+:::
+:::
+:::
