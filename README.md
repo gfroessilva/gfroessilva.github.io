@@ -14,7 +14,7 @@ The Quarto source files live in the repository root and render to the same root-
 
 ## Automated resume sync from Overleaf
 
-The repository includes a GitHub Actions workflow at `.github/workflows/sync-resume.yml` that pulls the resume source from Overleaf, compiles it with LaTeX, and updates `Guilherme_s_CV.pdf`.
+The repository includes a GitHub Actions workflow at `.github/workflows/sync-resume.yml` that pulls the resume source from Overleaf, compiles it with **XeLaTeX**, and updates `Guilherme_s_CV.pdf`.
 
 Configure these repository **Actions secrets** before running it:
 
