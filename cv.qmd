@@ -2,29 +2,33 @@
 title: "Résumé"
 ---
 
-::: {.section-block}
-::: {.publication-grid}
-![](assets/img/avatars/avatar.jpg){fig-alt="Portrait of Guilherme Fróes Silva"}
+:::: {.section-block}
+::: {.columns .publication-columns}
+::: {.column width="30%"}
+![](assets/img/avatars/avatar.jpg){.profile-photo fig-alt="Portrait of Guilherme Fróes Silva"}
+:::
 
-::: {}
+::: {.column width="70%"}
 ## Profile {.section-title}
 
 A lecturer and researcher in electrical engineering, with experience across nonlinear control, multi-agent systems, image processing, and engineering education.
 
 [Download PDF résumé](Guilherme_s_CV.pdf){.pdf-link}
 
-::: {.contact-grid}
-::: {.contact-card}
+::: {.card-grid .card-grid-compact}
+::: {.card-item .contact-card}
 ### Email
 
 [g.froessilva@qut.edu.au](mailto:g.froessilva@qut.edu.au)
 :::
-::: {.contact-card}
+
+::: {.card-item .contact-card}
 ### Phone
 
 +61 433 870 354
 :::
-::: {.contact-card}
+
+::: {.card-item .contact-card}
 ### ORCID
 
 [0000-0003-4717-2742](https://orcid.org/0000-0003-4717-2742)
@@ -32,21 +36,20 @@ A lecturer and researcher in electrical engineering, with experience across nonl
 :::
 :::
 :::
-:::
+::::
 
 ## Work experience {.section-title}
 
 ::: {.timeline}
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### Sessional Academic (Tutor)
 
+::: {.timeline-meta}
 Queensland University of Technology
 :::
+
 ::: {.timeline-period}
 07/2019 – Ongoing
-:::
 :::
 
 I tutor and develop material for:
@@ -58,15 +61,14 @@ I tutor and develop material for:
 :::
 
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### Lecturer
 
+::: {.timeline-meta}
 PUCRS
 :::
+
 ::: {.timeline-period}
 02/2018 – 12/2018
-:::
 :::
 
 For two semesters I lectured and coordinated six units at PUCRS, Brazil:
@@ -80,15 +82,14 @@ For two semesters I lectured and coordinated six units at PUCRS, Brazil:
 :::
 
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### Research Assistant
 
+::: {.timeline-meta}
 Labima · PUCRS
 :::
+
 ::: {.timeline-period}
 08/2015 – 01/2018
-:::
 :::
 
 Research focused on automatic shadow removal from aerial images for the United States Air Force grant on the shadow problem. In January 2016, I visited The University of New Mexico and Transparent Sky.
@@ -102,30 +103,28 @@ Research focused on automatic shadow removal from aerial images for the United S
 
 ::: {.timeline}
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### PhD in Electrical Engineering
 
+::: {.timeline-meta}
 Queensland University of Technology, Australia
 :::
+
 ::: {.timeline-period}
 02/2019 – Ongoing
-:::
 :::
 
 Current research involves disturbance string stable control design of multi-agent systems.
 :::
 
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### MS in Electrical Engineering
 
+::: {.timeline-meta}
 PUCRS, Brazil
 :::
+
 ::: {.timeline-period}
 08/2015 – 08/2017
-:::
 :::
 
 Research in image processing and photogrammetry, partially funded by CAPES and the AFOSR.
@@ -136,30 +135,28 @@ Thesis: *Real-time Shadow Detection and Removal in Aerial Motion Imagery Applica
 :::
 
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### Academic Exchange
 
+::: {.timeline-meta}
 University of Birmingham, UK
 :::
+
 ::: {.timeline-period}
 09/2012 – 09/2013
-:::
 :::
 
 One-year sandwich program in Electrical Engineering, including coursework and a three-month placement at the Birmingham Centre for Railway Research and Education.
 :::
 
 ::: {.timeline-item}
-::: {.timeline-item-header}
-::: {}
 ### BEng Automation and Control
 
+::: {.timeline-meta}
 PUCRS, Brazil
 :::
+
 ::: {.timeline-period}
 03/2009 – 07/2015
-:::
 :::
 
 Five-year engineering degree focused on industrial automation and control theory. Final-year project: *Project and Control of a Rotary Dual-Stage Actuator*.
@@ -170,14 +167,8 @@ Five-year engineering degree focused on industrial automation and control theory
 
 ## Skills {.section-title}
 
-::: {.contact-grid}
-::: {.contact-card}
-Control systems design
-:::
-::: {.contact-card}
-MATLAB
-:::
-::: {.contact-card}
-Teaching and curriculum development
-:::
+::: {.section-block}
+- Control systems design
+- MATLAB
+- Teaching and curriculum development
 :::

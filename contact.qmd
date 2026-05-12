@@ -2,35 +2,35 @@
 title: "Contact"
 ---
 
-::: {.section-block}
 ## Get in touch {.section-title}
 
+::: {.section-block}
 If you would like to discuss research, teaching, supervision, or collaboration opportunities, the best first contact is by email or the form below.
 :::
 
-::: {.contact-grid}
-::: {.contact-card}
+::: {.card-grid .card-grid-compact}
+::: {.card-item .contact-card}
 ### Email
 
 [g.froessilva@qut.edu.au](mailto:g.froessilva@qut.edu.au)
 :::
 
-::: {.contact-card}
+::: {.card-item .contact-card}
 ### LinkedIn
 
 [linkedin.com/in/codefroes](https://www.linkedin.com/in/codefroes/)
 :::
 
-::: {.contact-card}
+::: {.card-item .contact-card}
 ### ORCID
 
 [orcid.org/0000-0003-4717-2742](https://orcid.org/0000-0003-4717-2742)
 :::
 :::
 
-::: {.section-block}
 ## Contact form {.section-title}
 
+::: {.section-block}
 ```{=html}
 <form class="contact-form" accept-charset="UTF-8" action="https://www.formbackend.com/f/17c0ac14ad752be2" method="POST" target="_blank">
   <div class="mb-3">

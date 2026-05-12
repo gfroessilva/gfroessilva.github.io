@@ -3,8 +3,9 @@ title: "Home"
 page-layout: full
 ---
 
-::: {.hero-grid}
-::: {.hero-copy}
+::: {.hero-card}
+:::: {.columns .hero-columns}
+::: {.column width="62%"}
 ::: {.kicker}
 Control engineer · Researcher · Educator
 :::
@@ -17,22 +18,22 @@ I work on nonlinear and networked control systems, with a focus on multi-agent s
 
 I am based at the Queensland University of Technology and enjoy building research that connects theory, implementation, and teaching practice.
 
-::: {.hero-actions}
+::: {.button-row}
 [Contact me](contact.html){.btn .btn-primary .btn-lg}
 [View résumé](cv.html){.btn .btn-outline-primary .btn-lg}
 :::
 :::
 
-::: {.hero-photo}
+::: {.column width="38%"}
 ![](assets/img/avatars/avatar.jpg){.profile-photo fig-alt="Portrait of Guilherme Fróes Silva"}
 :::
+::::
 :::
 
-::: {.section-block}
 ## Research highlights {.section-title}
 
-::: {.feature-grid}
-::: {.feature-card}
+::: {.card-grid}
+::: {.card-item .feature-card}
 ![](assets/img/vehicleplatooning2.png){.feature-image fig-alt="Vehicle platooning illustration"}
 
 ### Vehicle platooning
@@ -40,7 +41,7 @@ I am based at the Queensland University of Technology and enjoy building researc
 Disturbance string stable control design for vehicle platoons with actuator dynamics and external disturbances.
 :::
 
-::: {.feature-card}
+::: {.card-item .feature-card}
 ![](assets/img/inverterchains.jpg){.feature-image fig-alt="Inverter chain illustration"}
 
 ### Inverter-based microgrids
@@ -48,7 +49,7 @@ Disturbance string stable control design for vehicle platoons with actuator dyna
 Controller design for chains of frequency-controlled inverters with guaranteed string-stability properties.
 :::
 
-::: {.feature-card}
+::: {.card-item .feature-card}
 ![](assets/img/shadows.png){.feature-image fig-alt="Shadow compensation example"}
 
 ### Shadow compensation
@@ -56,36 +57,35 @@ Controller design for chains of frequency-controlled inverters with guaranteed s
 Automatic detection and removal of shadows in urban aerial imagery for near-real-time applications.
 :::
 :::
-:::
 
-::: {.section-block}
 ## Featured talk {.section-title}
 
+::: {.section-block}
+```{=html}
 <div class="ratio ratio-16x9">
   <iframe src="https://www.youtube.com/embed/qK3jj-XhBnQ" title="Visualise your Thesis 2021 entry" allowfullscreen></iframe>
 </div>
+```
 :::
 
-::: {.section-block}
 ## Focus areas {.section-title}
 
-::: {.stat-grid}
-::: {.stat-card}
+::: {.card-grid .card-grid-compact}
+::: {.card-item .stat-card}
 ### Control design
 
 Nonlinear control, multi-agent coordination, and string stability.
 :::
 
-::: {.stat-card}
+::: {.card-item .stat-card}
 ### Research
 
 Academic publications spanning control theory, applications, and engineering systems.
 :::
 
-::: {.stat-card}
+::: {.card-item .stat-card}
 ### Teaching
 
 Lecturing, tutoring, and curriculum development across modern control and autonomous systems.
-:::
 :::
 :::
