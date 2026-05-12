@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Checkout website repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -68,13 +68,23 @@ jobs:
             tex_files=( *.tex )
             shopt -u nullglob
 
-            if [ "${#tex_files[@]}" -ne 1 ]; then
+            documentclass_candidates=()
+            for tex_file in "${tex_files[@]}"; do
+              if grep -Eq '^[[:space:]]*\\documentclass(\[[^]]*\])?\{' "$tex_file"; then
+                documentclass_candidates+=( "$tex_file" )
+              fi
+            done
+
+            if [ "${#documentclass_candidates[@]}" -eq 1 ]; then
+              main_tex="${documentclass_candidates[0]}"
+            elif [ "${#tex_files[@]}" -eq 1 ]; then
+              main_tex="${tex_files[0]}"
+            else
               echo "Set repository variable OVERLEAF_MAIN_TEX because the main .tex file could not be inferred automatically." >&2
               printf 'Found .tex files: %s\n' "${tex_files[*]:-(none)}" >&2
+              printf 'Files containing \\documentclass: %s\n' "${documentclass_candidates[*]:-(none)}" >&2
               exit 1
             fi
-
-            main_tex="${tex_files[0]}"
           fi
 
           pdf_name="${main_tex%.tex}.pdf"

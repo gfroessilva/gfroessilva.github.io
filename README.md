@@ -22,7 +22,7 @@ Configure these repository **Actions secrets** before running it:
 - `OVERLEAF_GIT_USERNAME`
 - `OVERLEAF_GIT_TOKEN`
 
-If the main LaTeX file in Overleaf is not `main.tex`, also add this repository **Actions variable**:
+The workflow first tries to infer the main LaTeX file by looking for the root `.tex` file that contains `\documentclass`. If your Overleaf project still has multiple possible entrypoints, add this repository **Actions variable**:
 
 - `OVERLEAF_MAIN_TEX` (example: `resume.tex`)
 
